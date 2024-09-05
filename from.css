@@ -1,0 +1,58 @@
+* {
+    color: #00ADB5;
+}
+
+body {
+    background: #222831;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: #EEEEEE;
+}
+
+#search {
+    background-color: #A6B1E1;
+}
+
+#btn {
+    background-color: white;
+    color: black
+}
+
+select {
+    background-color: white;
+    color: black
+}
+
+span {
+    color: bisque;
+    font-size: larger;
+}
+
+ul li {
+    list-style-type: disc;
+
+    color: white;
+
+}
+
+.dog {
+    color: #A6B1E1;
+}
+
+input[type="password"] {
+    background-color: red;
+}
+
+a:hover {
+    color: pink;
+}
+
+h1::first-letter {
+    font-size: 50px;
+}

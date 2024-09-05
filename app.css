@@ -1,0 +1,20 @@
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(0, 99, 205);
+    animation: backwards;
+    background-color: rgba(86, 17, 225, 0.397);
+    font-weight: 900;
+}
+
+p {
+    color: #4E31AA;
+    background-color: rgba(0, 0, 0, 0.103);
+    text-align: center;
+}
