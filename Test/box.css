@@ -1,0 +1,48 @@
+body {}
+
+
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: .5rem;
+    height: .5rem;
+    background-color: white;
+}
+
+#one {
+    background-color: bisque;
+    border-style: dashed;
+    border-color: magenta;
+    border-width: 10px;
+}
+
+#two {
+    background-color: #DD356E;
+    border-style: dashed solid;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#three {
+    border-style: inset;
+    border-color: azure;
+    border: 40px dotted #DD356E;
+}
+
+h1 {
+    background-color: mediumspringgreen;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 400px;
+    margin-bottom: 0%;
+}
+
+button {
+    border: 10px solid rgb(0, 90, 26);
+    padding-left: 30px;
+    padding-bottom: 10px;
+}

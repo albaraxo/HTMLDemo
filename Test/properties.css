@@ -1,0 +1,57 @@
+/* section {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.rgba {
+    background-color: magenta;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, .4)
+}
+
+.opacity {
+    background-color: yellowgreen;
+    width: 50%;
+    height: 50%;
+    opacity: 0.9;
+}
+
+button {
+    background-color: inherit;
+} */
+
+section {
+    background-color: brown;
+
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.middle {
+    background-color: aquamarine;
+
+}
+
+.static .middle {
+    position: static;
+    top: 300px;
+}
+
+.relative .middle {
+    position: relative;
+    left: 140px;
+}
+
+.absolute .middle {
+    position: absolute;
+    bottom: 30px;
+}
