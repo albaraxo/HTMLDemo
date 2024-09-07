@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    color: antiquewhite;
+    font-weight: bold;
+
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+
+}
+
+#container .one {
+    background-color: #80ffdb;
+}
+
+#container .two {
+    background-color: #64dfdf;
+}
+
+#container .three {
+    background-color: #48bfe3;
+}
+
+#container .four {
+    background-color: #5390d9;
+}
+
+#container .five {
+    background-color: #6930c3;
+}
+
+#container div {
+    width: 150px;
+    height: 150px;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-out, border-radius 2s, background-color 1.5s;
+
+
+}
+
+body {
+    background-color: #003049;
+}
+
+#container div:hover {
+    border-radius: 50%;
+    animation: jumpAndRotate 1.5s, ease-out;
+}
+
+#container .one:hover {
+    transform: rotate(-90deg);
+    border-radius: 100%;
+    background-color: #6930c3;
+    animation: jumpAndRotate 1.5s ease-out;
+}
+
+#container .two:hover {
+    transform: rotate(-45deg);
+    animation: jumpAndRotate 1.5s ease-out;
+    background-color: #5390d9;
+}
+
+#container .four:hover {
+    animation: jumpAndRotate 1.5s ease-out;
+    /* Apply animation */
+    background-color: #64dfdf;
+}
+
+#container .five:hover {
+    animation: jumpAndRotate 1s ease-out;
+    transform: rotate(90deg);
+    background-color: #80ffdb;
+}
+
+@keyframes jumpAndRotate {
+    0% {
+        transform: rotate(0) translateY(0);
+        /* Start with no rotation and no jump */
+    }
+
+    50% {
+        transform: rotate(0deg) translateY(-150px);
+        /* Rotate and jump up */
+    }
+
+    100% {
+        transform: rotate(0deg) translateY(0);
+        /* Rotate and come back down */
+    }
+}
