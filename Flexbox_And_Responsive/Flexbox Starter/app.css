@@ -65,30 +65,30 @@ body {
 
 #container div:hover {
     border-radius: 50%;
-    animation: jumpAndRotate 1.5s, ease-out;
+
 }
 
 #container .one:hover {
     transform: rotate(-90deg);
     border-radius: 100%;
     background-color: #6930c3;
-    animation: jumpAndRotate 1.5s ease-out;
+
 }
 
 #container .two:hover {
     transform: rotate(-45deg);
-    animation: jumpAndRotate 1.5s ease-out;
+
     background-color: #5390d9;
 }
 
 #container .four:hover {
-    animation: jumpAndRotate 1.5s ease-out;
+
     /* Apply animation */
     background-color: #64dfdf;
 }
 
 #container .five:hover {
-    animation: jumpAndRotate 1s ease-out;
+
     transform: rotate(90deg);
     background-color: #80ffdb;
 }
